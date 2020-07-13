@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #444444;
+    color: white;
+}
+
+
+.main {
+
+    display: flex;
+    height: 500px;
+    border: 1px solid white;
+    /* permite que los elementos hijos se vayan al centro */
+    /*para esto los elementos no tiene  que ocupar el 100%*/
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section1 {
+    background-color: turquoise;
+    width: 200px;
+    height: 200px;
+}
+
+.section2 {
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 200px;
+}
+
+.section3 {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2 {
+    display: flex;
+    height: 200px;
+    border: 1px solid #af1b1b;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section4 {
+    height: 100px;
+    width: 100px;
+    background-color: #af1b1b;
+
+}
+
+.bolita {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: indigo;
+
+}

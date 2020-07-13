@@ -1,0 +1,18 @@
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.section1 {
+
+    height: 200px;
+    width: 200px;
+    border: 1px solid orangered;
+
+    /* GRADIENTES */
+    /* el primer parametro es de donde a donde va , y los otros 2 parametros son los colores */
+    background: -webkit-linear-gradient(top, #393939, #cc00ff);
+
+}
